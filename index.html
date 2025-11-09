@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{display: flex
+    ;align-items: center;
+    justify-content: center; 
+  min-height: 100vh;
+background: linear-gradient(135deg,  #0d4747 0%, #048b70 100%);
+flex-direction: column;
+padding: 20px;}
+
+.container{
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+.form-box{
+    background-color: #087f5d;
+    padding: 45px; border-radius: 12px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+.form-box:hover{transform: translateY(-5px);}
+
+label{
+    display: block;
+    margin-bottom: 20px;
+    color: white; font-weight: 600; font-size: 23px;
+    font-family: Roboto;
+}
+
+.input-element{
+    margin-bottom: 20px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 7px 9px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+input:focus{
+outline: none;
+border-color: aliceblue;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+}
+
+button{
+      background: linear-gradient(to right, #1ca907, #024110);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 14px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: all 0.3s;
+            font-family: Roboto;
+            
+}
+button:hover{
+      transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(237, 238, 239, 0.4);
+}
+</style>
+
+</head>
+
+<body>
+<div class="container">
+
+<div class="form-box">
+
+    <div class="input-element">
+
+ <label>  !تکایە ناوی خۆت بە دروستی بنوسە</label>
+<input type="text" placeholder="" id="urname">
+    </div>
+
+<div class="input-element">
+
+    <label>  !تکایە تەمەنی خۆت بە دروستی بنوسە</label>
+    <input type="text" placeholder="" id="urname">
+</div>
+<button type="button" onclick=" trolfunction()">  ناردن</button>
+</div>
+
+
+</div>
+
+<script>
+
+function trolfunction() {
+    let firstname = document.getElementById("urname").value
+    let lastname= document.getElementById("urname").value
+
+    if(firstname !=="" && lastname !=="") {
+        window.open("580722600_24890874920584889_1711928043847350985_n.mp4")
+    }
+}
+
+</script>
+
+</body>
+
+</html>
